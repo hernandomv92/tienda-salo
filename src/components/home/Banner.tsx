@@ -14,22 +14,14 @@ const Banner: React.FC = () => {
             Cada pieza es única y creada con dedicación para que brilles con un estilo auténtico y personal.
           </p>
           <div className="space-x-4">
-            <Button 
-              variant="primary" 
-              size="lg"
-              as={Link}
-              to="/category/pulseras"
-            >
-              ¡Compra ahora!
-            </Button>
-            <Button 
-              variant="outline" 
-              size="lg"
-              as={Link}
-              to="/category/collares"
+           
+            <Link
+              to="/nuevos-productos"
+              className="inline-block border border-black px-6 py-3 text-black rounded-md hover:bg-pink-100 transition"
             >
               Ver Nuevos Productos
-            </Button>
+            </Link>
+
           </div>
         </div>
       </div>

@@ -15,7 +15,7 @@ const Home: React.FC = () => {
       <FeaturedProducts 
         title="Nuevos Productos" 
         products={newArrivals}
-        viewAllLink="/new-arrivals"
+        viewAllLink="/todos-los-productos"
       />
       
       <div className="bg-gray-50 py-12">
